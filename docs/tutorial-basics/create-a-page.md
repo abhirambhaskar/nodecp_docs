@@ -32,7 +32,7 @@ This script downloads and executes the **NodeCP installation script** with an in
 For a **direct installation (non-GUI method)** with a predefined domain, use:
 
 ```bash
-curl -o bash.sh https://cdn.nodecp.com/domainbash.sh && chmod +x domainbash.sh && ./domainbash.sh -hostdomain panel.example.com
+curl -o domainbash.sh https://cdn.nodecp.com/domainbash.sh && chmod +x domainbash.sh && ./domainbash.sh -hostdomain panel.example.com
 ```
 
 Replace `panel.example.com` with your **actual domain/subdomain** before running the command.
